@@ -1,16 +1,24 @@
 /* your code */
+table{
+	border: 2px solid ;
+/* 	radius: 5px; */
+	width: 500px;
+	border-style: none;
+	border-collapse: collapse;
+}
 th,td{
-	text-align: center;
+	text-align: left;
     vertical-align: center;
+
 }
 thead{
 	color: white;
 	background-color: rgba(33,90,142,255);
+	
 }
 tbody>tr:nth-child(odd){
 	background-color: rgba(255,255,255,255);
 }
-
 tbody>tr:nth-child(even){
 	background-color:rgba(221,221,221,255);
 }
