@@ -1,1 +1,16 @@
 /* your code */
+th,td{
+	text-align: center;
+    vertical-align: center;
+}
+thead{
+	color: white;
+	background-color: rgba(33,90,142,255);
+}
+tbody>tr:nth-child(odd){
+	background-color: rgba(255,255,255,255);
+}
+
+tbody>tr:nth-child(even){
+	background-color:rgba(221,221,221,255);
+}
